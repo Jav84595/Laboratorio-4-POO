@@ -11,7 +11,7 @@ Desde la carpeta principal del proyecto, ejecutar en Git Bash:
 
 ```bash
 mkdir -p bin
-javac -encoding UTF-8 -d bin src/modelo/*.java src/vista/*.java src/controlador/*.java src/Main.java
+javac -encoding UTF-8 -d bin *.java
 java -cp bin Main
 ```
 
